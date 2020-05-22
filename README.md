@@ -11,10 +11,12 @@ As for IDE, I used MS Visual Studio 2019 (and I've been using it for pretty much
 # Main menu
 
 After the game starts up, console window pops up on the screen with simple Main menu.
-Menu contains three buttons:
+Menu contains three buttons: 
 
-  "Nová hra" - new game
+  "Nová hra" - new game, 
+  
   "Výsledky" - scoreboard with high scores 
+  
   "Konec" - exit 
 
 User is prompted to navigate throught the menu by UP and DOWN arrow keys and use ENTER key to confirm his/her choice.
