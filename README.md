@@ -1,5 +1,4 @@
 # C# Console Application - Tetris remake
-
 This is my take on the classic tetris game.
 
 I decided to make it console-based, just to give it some kind of "retro" vibe instead of doing it in WFA, and also it looked  slighly more appealing to me.
@@ -9,7 +8,6 @@ The code may not be optimal and perhaps many things could've been done different
 As for IDE, I used MS Visual Studio 2019 (and I've been using it for pretty much any C# based code since highschool) and git for version control (but I'm still trying to get used to it; almost managed to delete ALL of my work thanks to "git reset --hard" - lesson learned :D)
 
 Feel free to use and modify the code for your own needs.
-
 # Main menu
 
 After the game starts up, console window pops up on the screen with simple Main menu.
@@ -22,23 +20,19 @@ Menu contains three buttons:
   "Konec" - exit 
 
 User is prompted to navigate throught the menu by UP and DOWN arrow keys and use ENTER key to confirm his/her choice.
-
 # New game
 
 Upon choosing the New game option, user is brought before input screen and asked to write down his/her name, that is later on used for assigning the final score for that player and writting it down into .txt file located inside the application's folder.
 Input must be valid and in order to do so, no empty strings or spaces are allowed. User has to repeatedly write down valid name in order to proceed further into the game itself.
-
 # Scoreboard
 
 Upon visiting the scoreboard, console clears itself and shows simply formated table of player names and their scores.
 The scores aren't sorted and it just simply reads the data from .txt file located inside the application's folder.
 
 User is prompted to use ESCAPE key in order to get back to the Main menu.
-
 # Exit
 
 Choosing this option exits the game (it's more thoroughly explained in the code itself).
-
 # Game
 
 When the user writes down his/her name and program accepts it, the game finally starts. Playing area is shown on the console screen with score text on the side. First block spawns and slowly falls down. 
