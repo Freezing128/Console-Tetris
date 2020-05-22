@@ -27,9 +27,9 @@ namespace Tetris
         public static Random RNG = new Random();
         public static DateTime nextMove = DateTime.Now.AddMilliseconds(timeDelay_ms);
         public static Block current_block = new Block();
-        public static int[,] droppedGrid = new int[width, height];
         static int width = 24;
         static int height = 18;
+        public static int[,] droppedGrid = new int[width, height];
         static int pos_x = RNG.Next(1, width - 4);
         static int pos_y = 0;
         static int decision = 0;
