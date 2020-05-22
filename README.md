@@ -8,6 +8,8 @@ The code may not be optimal and perhaps many things could've been done different
 
 As for IDE, I used MS Visual Studio 2019 (and I've been using it for pretty much any C# based code since highschool) and git for version control (but I'm still trying to get used to it; almost managed to delete ALL of my work thanks to "git reset --hard" - lesson learned :D)
 
+Feel free to use and modify the code for your own needs.
+
 # Main menu
 
 After the game starts up, console window pops up on the screen with simple Main menu.
